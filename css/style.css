@@ -1,0 +1,18 @@
+/* Pfad zu den Schriftart-Dateien */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('css/Montserrat/Montserrat-VariableFont_wght.ttf') format('ttf'),
+   
+        url('css/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
+
+}
+
+/* Verwendung der definierten Schriftart für ein Element */
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    /* Fallback-Schriftart: Wenn die benutzerdefinierte Schriftart nicht geladen werden kann, wird eine Standardschriftart verwendet */
+}
+
+.mirakulix {
+    background-color: #365248 !important;
+}
